@@ -34,7 +34,7 @@ This repository contains 20 carefully designed projects that progressively build
 
 | #  | Project           | Key Learning                  |
 | -- | ----------------- | ----------------------------- |
-| 01 | Calculator Engine | Error handling, FFI basics    |
+| 01 | [Calculator Engine (Rust)](rust-ffi-projects/project-01-calculator/README.md) / [UI (Flutter)](flutter-projects/project_01_calculator/README.md) | Error handling, FFI basics    |
 | 02 | HTML Converter    | CString / CStr, encoding      |
 | 03 | String Toolkit    | Multi-function bindings       |
 | 04 | JSON Validator    | serde_json, error propagation |
@@ -88,7 +88,7 @@ This repository contains 20 carefully designed projects that progressively build
 │   └── ...
 │
 ├── flutter-projects/
-│   ├── project-01-calculator-ui/
+│   ├── project_01_calculator/
 │   ├── project-02-html-ui/
 │   └── ...
 │
@@ -109,7 +109,7 @@ Each project is fully isolated and contains:
 ### 🦀 Rust (Core Engine)
 
 ```bash
-cd rust-ffi-projects/project-01-calculator
+cd [rust-ffi-projects/project-01-calculator](rust-ffi-projects/project-01-calculator/README.md)
 cargo build --release
 ```
 
@@ -118,7 +118,7 @@ cargo build --release
 ### 📱 Flutter (UI)
 
 ```bash
-cd flutter-projects/project-01-calculator-ui
+cd [flutter-projects/project_01_calculator](flutter-projects/project_01_calculator/README.md)
 flutter pub get
 flutter run
 ```
