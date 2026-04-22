@@ -1,0 +1,1 @@
+/Users/hasanmasrur/Desktop/personal_learn/rust-ffi-flutter-labs/rust-ffi-projects/project-01-calculator/target/x86_64-linux-android/release/libproject_01_calculator.so: /Users/hasanmasrur/Desktop/personal_learn/rust-ffi-flutter-labs/rust-ffi-projects/project-01-calculator/src/lib.rs
